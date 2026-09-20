@@ -10,7 +10,7 @@
 
 **The most powerful, cost-effective, and reliable Xiaohongshu (RedNote / 小红书 / RED) scraper and API on Apify. Extract viral posts, influencer analytics, consumer buying sentiment signals, and watermark-free original HD media — 100% autonomously with Zero Login & Zero Cookies Needed.**
 
-[**🚀 Try it Live on Apify**](https://apify.com/scraperpro/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs) • [**📖 Documentation**](https://apify.com/scraperpro/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs) • [**💬 Support**](mailto:radwanfaris13@gmail.com)
+[**🚀 Try it Live on Apify**](https://apify.com/scraperpro/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs) • [**📖 Documentation**](https://apify.com/scraperpro/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs) • [**💬 Support**](https://apify.com/scraperpro/xiaohongshu-rednote-trend-scraper/issues)
 
 </div>
 
@@ -260,7 +260,7 @@ We strongly recommend using **Apify Residential Proxies** for maximum reliabilit
 Need a custom data solution, higher concurrency, or enterprise SLAs?
 
 - **Apify Actor Store:** [Xiaohongshu (RedNote) Scraper](https://apify.com/scraperpro/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs)
-- **Email:** [radwanfaris13@gmail.com](mailto:radwanfaris13@gmail.com)
+- **Bug Reports & Feature Requests:** [Apify Issues](https://apify.com/scraperpro/xiaohongshu-rednote-trend-scraper/issues)
 - **Author:** ScraperPro
 
 <div align="center">
