@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Available on Apify](https://img.shields.io/badge/Available_on-Apify-28B52A?style=for-the-badge&logo=apify&logoColor=white)](https://apify.com/scraperpro/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs)
+[![Available on Apify](https://img.shields.io/badge/Available_on-Apify-28B52A?style=for-the-badge&logo=apify&logoColor=white)](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](#)
 [![Success Rate](https://img.shields.io/badge/Success_Rate-99%25+-brightgreen?style=for-the-badge)](#)
 [![Zero Cookies](https://img.shields.io/badge/Cookies-None_Required-blue?style=for-the-badge)](#)
@@ -10,14 +10,14 @@
 
 **The most powerful, cost-effective, and reliable Xiaohongshu (RedNote / 小红书 / RED) scraper and API on Apify. Extract viral posts, influencer analytics, consumer buying sentiment signals, and watermark-free original HD media — 100% autonomously with Zero Login & Zero Cookies Needed.**
 
-[**🚀 Try it Live on Apify**](https://apify.com/scraperpro/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs) • [**📖 Documentation**](https://apify.com/scraperpro/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs) • [**💬 Support**](https://apify.com/scraperpro/xiaohongshu-rednote-trend-scraper/issues)
+[**🚀 Try it Live on Apify**](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs) • [**📖 Documentation**](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs) • [**💬 Support**](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper/issues)
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="xiaohongshu_scraper_banner.jpg" alt="Xiaohongshu RedNote Scraper by ScraperPro" width="100%">
+  <img src="xiaohongshu_scraper_banner.jpg" alt="Xiaohongshu RedNote Scraper by UnitBytes" width="100%">
 </div>
 
 ---
@@ -28,13 +28,13 @@
 
 However, extracting data from Xiaohongshu has historically been painful: aggressive WAF rate-limits, mandatory Chinese phone logins, session token expirations, and strict anti-bot mechanisms.
 
-**Xiaohongshu (RedNote) Scraper by ScraperPro** solves this completely. Using autonomous device emulation and server-side stream cursors, you can scrape up to **10,000 notes per run** without supplying a single cookie or login credential.
+**Xiaohongshu (RedNote) Scraper by UnitBytes** solves this completely. Using autonomous device emulation and server-side stream cursors, you can scrape up to **10,000 notes per run** without supplying a single cookie or login credential.
 
 ---
 
-## 🌟 Why Choose ScraperPro Over Other Xiaohongshu Scrapers?
+## 🌟 Why Choose UnitBytes Over Other Xiaohongshu Scrapers?
 
-| Feature | ScraperPro Xiaohongshu Scraper | Other Scrapers | Commercial Data APIs |
+| Feature | UnitBytes Xiaohongshu Scraper | Other Scrapers | Commercial Data APIs |
 | :--- | :---: | :---: | :---: |
 | **Pricing Model** | **Pay-Per-Result (PPE)** | Expensive Monthly Subs ($50-$200/mo) | High Per-Request Rates |
 | **Account / Cookie Requirement** | **None (100% Zero Cookies Needed)** | User Must Supply Personal Cookies | Personal API Keys |
@@ -75,7 +75,7 @@ However, extracting data from Xiaohongshu has historically been painful: aggress
 
 ## 🛠️ How to Use via API
 
-You can run this scraper directly via the [Apify Console](https://apify.com/scraperpro/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs), or integrate it into your backend using the Apify API in Python, JavaScript/Node.js, or cURL.
+You can run this scraper directly via the [Apify Console](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs), or integrate it into your backend using the Apify API in Python, JavaScript/Node.js, or cURL.
 
 ### 🐍 Python Example
 
@@ -100,7 +100,7 @@ run_input = {
 
 # Start the Actor and wait for it to finish
 print("🚀 Starting Xiaohongshu scrape...")
-run = client.actor("scraperpro/xiaohongshu-rednote-trend-scraper").call(run_input=run_input)
+run = client.actor(\"unitbytes/xiaohongshu-rednote-trend-scraper\").call(run_input=run_input)
 
 # Fetch results from the default dataset
 dataset_items = client.dataset(run["defaultDatasetId"]).list_items().items
@@ -138,7 +138,7 @@ const runInput = {
 };
 
 console.log('🚀 Launching Xiaohongshu Scraper...');
-const run = await client.actor('scraperpro/xiaohongshu-rednote-trend-scraper').call(runInput);
+const run = await client.actor(\"unitbytes/xiaohongshu-rednote-trend-scraper\").call(runInput);
 
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(`✅ Fetched ${items.length} Xiaohongshu notes!`);
@@ -151,7 +151,7 @@ console.log(items.slice(0, 2));
 ### 🌐 cURL Example
 
 ```bash
-curl -X POST "https://api.apify.com/v2/acts/scraperpro~xiaohongshu-rednote-trend-scraper/runs?token=YOUR_APIFY_TOKEN" \
+curl -X POST "https://api.apify.com/v2/acts/unitbytes~xiaohongshu-rednote-trend-scraper/runs?token=YOUR_APIFY_TOKEN" \
   -H "Content-Type: application/json" \
   -d '{
     "keywords": ["OOTD"],
@@ -259,13 +259,13 @@ We strongly recommend using **Apify Residential Proxies** for maximum reliabilit
 
 Need a custom data solution, higher concurrency, or enterprise SLAs?
 
-- **Apify Actor Store:** [Xiaohongshu (RedNote) Scraper](https://apify.com/scraperpro/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs)
-- **Bug Reports & Feature Requests:** [Apify Issues](https://apify.com/scraperpro/xiaohongshu-rednote-trend-scraper/issues)
-- **Author:** ScraperPro
+- **Apify Actor Store:** [Xiaohongshu (RedNote) Scraper](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs)
+- **Bug Reports & Feature Requests:** [Apify Issues](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper/issues)
+- **Author:** UnitBytes
 
 <div align="center">
   <br>
-  <a href="https://apify.com/scraperpro/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs">
+  <a href="https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs">
     <img src="https://img.shields.io/badge/Start_Scraping_Now-Apify-28B52A?style=for-the-badge&logo=apify&logoColor=white" height="40" alt="Start Scraping Now">
   </a>
 </div>
