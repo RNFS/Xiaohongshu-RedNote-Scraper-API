@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://unitbytes.com/assets/banners/unitbytes-xiaohongshu-rednote-trend-scraper-banner.jpg" alt="Xiaohongshu (RedNote) Scraper API by UnitBytes" width="100%" />
+</p>
+
 # 📱 Xiaohongshu (RedNote / 小红书) Scraper & API
 
 <div align="center">
@@ -100,7 +104,7 @@ run_input = {
 
 # Start the Actor and wait for it to finish
 print("🚀 Starting Xiaohongshu scrape...")
-run = client.actor(\"unitbytes/xiaohongshu-rednote-trend-scraper\").call(run_input=run_input)
+run = client.actor("unitbytes/xiaohongshu-rednote-trend-scraper\").call(run_input=run_input)
 
 # Fetch results from the default dataset
 dataset_items = client.dataset(run["defaultDatasetId"]).list_items().items
@@ -138,7 +142,7 @@ const runInput = {
 };
 
 console.log('🚀 Launching Xiaohongshu Scraper...');
-const run = await client.actor(\"unitbytes/xiaohongshu-rednote-trend-scraper\").call(runInput);
+const run = await client.actor("unitbytes/xiaohongshu-rednote-trend-scraper\").call(runInput);
 
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(`✅ Fetched ${items.length} Xiaohongshu notes!`);
@@ -275,3 +279,11 @@ Need a custom data solution, higher concurrency, or enterprise SLAs?
 ## 🔍 Keywords & Search Tags
 
 `xiaohongshu-scraper` • `xiaohongshu-api` • `rednote-scraper` • `rednote-api` • `little-red-book-scraper` • `小红书爬虫` • `小红书数据采集` • `xiaohongshu-python` • `xhs-scraper` • `scrape-xiaohongshu-without-login` • `xiaohongshu-video-downloader-no-watermark` • `xiaohongshu-buyer-sentiment` • `ecommerce-product-discovery` • `chinese-social-media-data` • `apify-actor` • `kol-influencer-analytics` • `rednote-crawler` • `xiaohongshu-trending-topics`
+
+---
+
+## 💬 Enterprise Support & Custom Pipelines
+Need custom web data feeds, high-frequency scheduled runs, private cluster deployments, or dedicated SLAs?
+- 📧 **Direct Email**: [contact@unitbytes.com](mailto:contact@unitbytes.com)
+- 🌐 **Enterprise Platform**: [https://unitbytes.com](https://unitbytes.com)
+- 💡 **Data Engine Specs & Live Docs**: [https://unitbytes.com/actors/xiaohongshu-scraper/](https://unitbytes.com/actors/xiaohongshu-scraper/)
