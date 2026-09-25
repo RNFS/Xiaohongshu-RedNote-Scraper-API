@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://unitbytes.com/assets/banners/unitbytes-xiaohongshu-rednote-trend-scraper-banner.jpg" alt="Xiaohongshu (RedNote) Scraper API by UnitBytes" width="100%" />
+  <img src="https://raw.githubusercontent.com/unitbytes-com/.github/main/assets/banners/unitbytes-xiaohongshu-rednote-trend-scraper-banner.jpg" alt="Xiaohongshu (RedNote) Scraper API by UnitBytes" width="100%" />
 </p>
 
 # 📱 Xiaohongshu (RedNote / 小红书) Scraper & API
