@@ -54,6 +54,25 @@ The most powerful, reliable, and cost-effective **Xiaohongshu (RedNote / 小红�
 
 ---
 
+## ⚡ Pre-Configured 1-Click Tasks & Common Use Cases
+
+Skip manual parameter setup. Launch these ready-to-use task presets directly in 1 click:
+
+| Trend Category / Content Preset | Description & Target Query | 1-Click Run Link |
+| :--- | :--- | :---: |
+| **Fashion & OOTD Trends Scraper (穿搭)** | Extract viral OOTD outfits, Korean aesthetic styles, luxury streetwear, and seasonal fashion inspirations from Xiaohongshu RedNote with engagement rates and HD image galleries. | [⚡ Launch Task](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?task=xiaohongshu-fashion-ootd-trends&fpr=939u3w&fp_sid=gh_xhs) |
+| **Beauty & Skincare Scraper (美妆护肤)** | Track trending cosmetic products, Asian skincare routines, makeup tutorials, and beauty consumer reviews on Xiaohongshu with purchase intent signals. | [⚡ Launch Task](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?task=xiaohongshu-beauty-skincare-scraper&fpr=939u3w&fp_sid=gh_xhs) |
+| **Viral Video Extractor (无水印视频)** | Extract direct MP4 video URLs, viral reels, and short video feeds from Xiaohongshu RedNote with video duration, high engagement ratios, and full transcripts. | [⚡ Launch Task](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?task=xiaohongshu-viral-video-downloader&fpr=939u3w&fp_sid=gh_xhs) |
+| **Food & Gourmet Scraper (美食探店)** | Discover viral foodie spots, local dining guides, coffee shops, and recipes on Xiaohongshu with author location, ratings, and HD food photography. | [⚡ Launch Task](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?task=xiaohongshu-food-restaurant-guide&fpr=939u3w&fp_sid=gh_xhs) |
+| **Travel & Outdoor Scraper (旅行户外)** | Extract viral travel itineraries, hidden scenic gems, camping spots, and city weekend guides from Xiaohongshu with author geolocation and full tips. | [⚡ Launch Task](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?task=xiaohongshu-travel-outdoor-guide&fpr=939u3w&fp_sid=gh_xhs) |
+| **Home Decor Scraper (家居家装)** | Collect minimalist interior design, cozy bedroom decor, apartment organization ideas, and modern lifestyle tips from Xiaohongshu RedNote. | [⚡ Launch Task](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?task=xiaohongshu-home-decor-lifestyle&fpr=939u3w&fp_sid=gh_xhs) |
+| **Fitness & Wellness Tracker (健身运动)** | Track workout routines, healthy clean eating meals, yoga flows, and weight loss transformations on Xiaohongshu RedNote. | [⚡ Launch Task](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?task=xiaohongshu-fitness-wellness-tracker&fpr=939u3w&fp_sid=gh_xhs) |
+| **Gaming & Anime Scraper (游戏动漫)** | Scrape gaming guides, esports highlights, anime cosplay, and mobile game updates on Xiaohongshu with high viral scores. | [⚡ Launch Task](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?task=xiaohongshu-gaming-anime-trends&fpr=939u3w&fp_sid=gh_xhs) |
+| **Consumer Sentiment & Feedback (真实测评)** | Extract authentic customer feedback, purchase intent keywords ('where to buy', 'price inquiry'), praise, and complaints on Xiaohongshu for market research. | [⚡ Launch Task](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?task=xiaohongshu-buyer-sentiment-analyzer&fpr=939u3w&fp_sid=gh_xhs) |
+| **Influencer & KOL Tracker (博主发现)** | Identify top creators, KOLs, and KOCs across niches on Xiaohongshu RedNote. Scrape author profile URLs, RED IDs, engagement rates, and viral scores for influencer marketing. | [⚡ Launch Task](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?task=xiaohongshu-influencer-kol-tracker&fpr=939u3w&fp_sid=gh_xhs) |
+
+---
+
 ## 🌟 Why Choose This Scraper Over Other Scrapers?
 
 | Feature | This Scraper | Other Scrapers | External Data APIs |
