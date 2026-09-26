@@ -1,181 +1,206 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/unitbytes-com/.github/main/assets/banners/unitbytes-xiaohongshu-rednote-trend-scraper-banner.jpg" alt="Xiaohongshu (RedNote) Scraper API by UnitBytes" width="100%" />
+  <a href="https://console.apify.com/actors/HJhq4xB1PKEK6PptD/input" target="_blank">
+    <img src="https://raw.githubusercontent.com/unitbytes-com/.github/main/assets/banners/unitbytes-xiaohongshu-rednote-trend-scraper-banner.jpg" alt="Xiaohongshu (RedNote) Scraper API by UnitBytes" width="100%" />
+  </a>
 </p>
 
-# 📱 Xiaohongshu (RedNote / 小红书) Scraper & API
+<p align="center">
+  <a href="https://console.apify.com/actors/HJhq4xB1PKEK6PptD/input" target="_blank">
+    <img src="https://raw.githubusercontent.com/unitbytes-com/.github/main/assets/try-it-for-free.svg" width="240" height="48" alt="Try it for Free">
+  </a>
+  <br>
+  <sub>⚡ <b>1-Click Free Trial:</b> Test live queries using Apify's $5 free monthly credit • No credit card required</sub>
+</p>
 
-<div align="center">
+# Xiaohongshu (RedNote / 小红书) Scraper: Viral Trends, Posts, HD Media & Buyer Sentiment
 
-[![Available on Apify](https://img.shields.io/badge/Available_on-Apify-28B52A?style=for-the-badge&logo=apify&logoColor=white)](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](#)
-[![Success Rate](https://img.shields.io/badge/Success_Rate-99%25+-brightgreen?style=for-the-badge)](#)
-[![Zero Cookies](https://img.shields.io/badge/Cookies-None_Required-blue?style=for-the-badge)](#)
-[![Pricing](https://img.shields.io/badge/Pricing-Pay_Per_Result-orange?style=for-the-badge)](#)
+The most powerful, reliable, and cost-effective **Xiaohongshu (RedNote / 小红书 / RED)** scraper on Apify. Extract viral trend discovery feeds, post content, influencer (KOL) engagement, consumer buying sentiment signals, and watermark-free original HD photos & videos—**100% autonomously with Zero Login & Zero Cookies Needed**.
 
-**The most powerful, cost-effective, and reliable Xiaohongshu (RedNote / 小红书 / RED) scraper and API on Apify. Extract viral posts, influencer analytics, consumer buying sentiment signals, and watermark-free original HD media — 100% autonomously with Zero Login & Zero Cookies Needed.**
-
-[**🚀 Try it Live on Apify**](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs) • [**📖 Documentation**](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs) • [**💬 Support**](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper/issues)
-
-</div>
-
----
-
-<div align="center">
-  <img src="xiaohongshu_scraper_banner.jpg" alt="Xiaohongshu RedNote Scraper by UnitBytes" width="100%">
-</div>
+> [!NOTE]
+> **Zero Login & Zero Cookies Required:** Unlike other scrapers that require you to copy fragile session cookies from personal accounts, this Actor uses autonomous device handshakes. No accounts are at risk, and sessions never expire mid-scrape.
 
 ---
 
-## 📖 Overview
 
-**Xiaohongshu (Little Red Book / 小红书 / RED)** is China’s #1 lifestyle, fashion, and social commerce network with over 300 million monthly active users. It is the premier platform for uncovering viral product trends, consumer buying signals, and influencer (KOL) marketing performance.
-
-However, extracting data from Xiaohongshu has historically been painful: aggressive WAF rate-limits, mandatory Chinese phone logins, session token expirations, and strict anti-bot mechanisms.
-
-**Xiaohongshu (RedNote) Scraper by UnitBytes** solves this completely. Using autonomous device emulation and server-side stream cursors, you can scrape up to **10,000 notes per run** without supplying a single cookie or login credential.
+<table>
+  <tr>
+    <td colspan="5" style="padding:10px 14px;background:#FF6A00;color:#FFFFFF;font-size:13px;font-weight:700;border-radius:6px 6px 0 0">
+      ⚡ UnitBytes · Chinese E-Commerce & B2B Sourcing Ecosystem
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:10px 12px;border:1px solid #E2E8F0;background:#FAFAFA;vertical-align:top;width:20%">
+      <span style="white-space:nowrap">🌐 <b><a href="https://apify.com/unitbytes/alibaba-wholesale-scraper?fpr=939u3w&fp_sid=ecosystem" style="color:#0F172A;text-decoration:none;font-size:13px">Alibaba Wholesale</a></b></span><br><span style="color:#2563EB;font-size:11px;font-weight:600">Global B2B & MOQ</span><br>
+      <span style="color:#64748B;font-size:11px">Verified Suppliers & Audits</span>
+    </td>
+    <td style="padding:10px 12px;border:1px solid #E2E8F0;background:#FAFAFA;vertical-align:top;width:20%">
+      <span style="white-space:nowrap">🇨🇳 <b><a href="https://apify.com/unitbytes/1688-wholesale-scraper?fpr=939u3w&fp_sid=ecosystem" style="color:#0F172A;text-decoration:none;font-size:13px">1688 Factory Direct</a></b></span><br><span style="color:#2563EB;font-size:11px;font-weight:600">Domestic Factory Prices</span><br>
+      <span style="color:#64748B;font-size:11px">SKU matrices & FBA specs</span>
+    </td>
+    <td style="padding:10px 12px;border:1px solid #E2E8F0;background:#FFF4ED;vertical-align:top;width:20%">
+      <span style="white-space:nowrap">📕 <b><a href="https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=ecosystem" style="color:#C2410C;text-decoration:none;font-size:13px">Xiaohongshu Trends</a></b></span><br><span style="color:#EA580C;font-size:11px;font-weight:700">📍 You are here</span><br>
+      <span style="color:#64748B;font-size:11px">Viral Posts & Buyer Intent</span>
+    </td>
+    <td style="padding:10px 12px;border:1px solid #E2E8F0;background:#FAFAFA;vertical-align:top;width:20%">
+      <span style="white-space:nowrap">🐟 <b><a href="https://apify.com/unitbytes/goofish-xianyu-search-scraper?fpr=939u3w&fp_sid=ecosystem" style="color:#0F172A;text-decoration:none;font-size:13px">Goofish Products</a></b></span><br><span style="color:#2563EB;font-size:11px;font-weight:600">C2C Resale & Arbitrage</span><br>
+      <span style="color:#64748B;font-size:11px">Zero-login search engine</span>
+    </td>
+    <td style="padding:10px 12px;border:1px solid #E2E8F0;background:#FAFAFA;vertical-align:top;width:20%">
+      <span style="white-space:nowrap">⭐ <b><a href="https://apify.com/unitbytes/goofish-xianyu-seller-scraper?fpr=939u3w&fp_sid=ecosystem" style="color:#0F172A;text-decoration:none;font-size:13px">Goofish Sellers</a></b></span><br><span style="color:#2563EB;font-size:11px;font-weight:600">Merchant Due Diligence</span><br>
+      <span style="color:#64748B;font-size:11px">Zhima credit & reviews</span>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🌟 Why Choose UnitBytes Over Other Xiaohongshu Scrapers?
+## 🌟 Why Choose This Scraper Over Other Scrapers?
 
-| Feature | UnitBytes Xiaohongshu Scraper | Other Scrapers | Commercial Data APIs |
+| Feature | This Scraper | Other Scrapers | External Data APIs |
 | :--- | :---: | :---: | :---: |
-| **Pricing Model** | **Pay-Per-Result (PPE)** | Expensive Monthly Subs ($50-$200/mo) | High Per-Request Rates |
-| **Account / Cookie Requirement** | **None (100% Zero Cookies Needed)** | User Must Supply Personal Cookies | Personal API Keys |
-| **Maintenance** | **Instant 1-Click Run** | Broken Sessions / Constant Expiry | Complex Webhooks |
-| **E-Commerce Buyer Sentiment** | **Included (NLP Commercial Intent)** | ❌ Not Available | ❌ Not Available |
-| **Media Quality** | **Original HD & Watermark-Free MP4** | Compressed Low-Res Thumbnails | Compressed Thumbnails |
-| **Official Category Feeds** | **11 Built-in Lifestyle Channels** | Keyword Search Only | Limited Endpoints |
-| **Mobile Share Link Resolution** | **Automatic (`xhslink.com`)** | Manual Conversion Required | ❌ Not Supported |
-| **Deep Pagination Resumption** | **Stateful Token (`resumptionToken`)** | ❌ None (Duplicate posts on restart) | Complex Offsets |
-| **Anti-Bot Reliability** | **Automated Device Handshake** | Frequent IP & Session Bans | Cloudflare Captchas |
+| **Pricing Model** | **Pay-Per-Result (PPE)** | Expensive Monthly Subscriptions | High Per-Request Rates |
+| **Cost per 1,000 Posts** | **~$2.00 / 1k** | $20.00 – $40.00 / 1k | $30.00 – $50.00 / 1k |
+| **Account / Cookie Requirement** | **None (100% Zero Cookies Needed)** | User Must Supply Personal Cookies | API Keys Required |
+| **Multi-Page Discovery** | **Continuous Deep Pagination (Thousands of Posts)** | Stops After 1 Page (~30 Notes) | Rate Limited |
+| **Client-Side Discarding** | **Zero Discarding (100% Data Delivery)** | Filters & Drops Paid Results | Varies |
+| **Consumer Buying Sentiment** | **Included (Purchase Intent Signals)** | Not Available | Not Available |
+| **Media Quality** | **Hotlink-Free HD Photos & MP4** | Broken / Inaccessible Links | Compressed Thumbnails |
+| **Official Category Feeds** | **13 Built-in Lifestyle Channels** | Keyword Search Only | Limited Endpoints |
+| **Mobile Share Link Resolution** | **Automatic (`xhslink.com`)** | Manual Conversion Required | Varies |
+| **Anti-Bot Reliability** | **Autonomous Device Handshake** | Frequent IP & Session Bans | Cloudflare Captchas |
 
 ---
 
-## ✨ Key Features
+## 🚀 Key Benefits & Features
 
-- **🛡️ 100% Zero-Cookie Guest Mode:** Never risk your personal Xiaohongshu account or hassle with QR codes and expiring tokens. Works right out of the box.
-- **📈 E-Commerce Buyer Sentiment Intelligence:** Built-in NLP algorithms automatically detect high-conversion commercial intent flags (*"where to buy"*, *"link please"*, *"how much"*, *"dupe for"*), product inquiries, and positive consumer praise.
-- **🎬 Watermark-Free HD Media:** Extracts direct uncompressed photo galleries and watermark-free MP4 video stream URLs ready for creative analysis or moodboards.
-- **🔄 Stateful Resumption Engine (`resumptionToken`):** Checkpoints pagination state so you can resume multi-page scrapes seamlessly with **0 duplicate notes across runs**.
-- **📂 11 Real-Time Lifestyle Category Feeds:** Discover breaking trends across Fashion, Cosmetics, Food, Travel, Home, Gaming, Fitness, Movies, Career, Relationships, and Trending Videos.
-- **🔗 Universal URL Dispatcher:** Paste raw search URLs, desktop explore links, bare 24-character note IDs, or mobile shortlinks (`xhslink.com`).
-- **⚡ High Concurrency & Speed:** 10 parallel detail workers enrich posts concurrently while staying strictly under 150 MB container RAM.
-
----
-
-## 💡 Practical Use Cases
-
-1. **E-Commerce & Dropshipping Product Discovery:**
-   Identify viral products surging on Little Red Book before they hit Amazon, TikTok Shop, or Western markets. Filter by `hasPurchaseIntent: true` to find items users are begging to buy.
-2. **Influencer (KOL) & Campaign Analytics:**
-   Audit creator engagement, viral engagement ratios (`viralScore`), like-to-collect distribution, and comment volume.
-3. **Consumer Sentiment & Social Listening:**
-   Track brand sentiment, customer feedback, and product reviews for cosmetics, luxury goods, fashion, and lifestyle brands.
-4. **AI & Machine Learning Training Datasets:**
-   Gather rich, structured multimodal datasets (high-resolution imagery, text, hashtags, engagement statistics) for computer vision and LLM fine-tuning.
+- **Zero Cookies & Zero Login Required:** Start scraping right away without risking personal accounts, dealing with QR code verifications, or copying expiring session tokens.
+- **Pay Only For Delivered Results:** Powered by Apify Pay-Per-Event pricing. You only pay for the actual records delivered to your dataset ($0.002 per note).
+- **Continuous Multi-Page Discovery:** Effortlessly paginate across multiple pages (Page 1, 2, 3... up to thousands of notes) to collect complete datasets up to your exact `maxItems`.
+- **100% Delivered Data (Zero Client-Side Discarding):** All server-returned notes matching your upstream filters are delivered directly to your dataset—no wasted compute or proxy bandwidth.
+- **Hotlink-Free Original HD Media:** Extracts uncompressed full-resolution gallery photos and direct MP4 video stream links. All image and cover URLs are hotlink-free and accessible directly from any web browser, dashboard, or external application without access denied errors.
+- **E-Commerce Buyer Sentiment Intelligence:** Built-in NLP algorithms automatically detect purchase intent flags (*"where to buy"*, *"link please"*, *"how much"*, *"dupe for"*), product inquiries, and positive consumer praise.
+- **Complete Engagement & Influencer Metrics:** Captures real-time likes, bookmarks (collections), comment counts, shares, author profiles, and calculates a standardized **Viral Score**.
+- **Search URLs & Mobile Share Links:** Paste raw Xiaohongshu search URLs, desktop explore links, mobile share links (`xhslink.com`), or bare 24-character post IDs.
 
 ---
 
-## 🛠️ How to Use via API
+## 🎯 Popular Use Cases
 
-You can run this scraper directly via the [Apify Console](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs), or integrate it into your backend using the Apify API in Python, JavaScript/Node.js, or cURL.
+### 1. E-Commerce & Dropshipping Product Discovery
+Spot emerging viral fashion items, beauty routines, lifestyle gadgets, and home aesthetics weeks before they appear on TikTok, Amazon, or Western markets. Identify winning products by filtering posts with high purchase intent signals.
 
-### 🐍 Python Example
+### 2. Influencer (KOL) & Brand Analytics
+Monitor brand mentions, competitor product launches, influencer marketing ROI, and organic customer reactions across China's largest trendsetting social commerce network.
 
-```bash
-pip install apify-client
-```
+### 3. Market Research & Consumer Review Mining
+Mine thousands of authentic consumer reviews, unboxings, and product comparisons to analyze sentiment, price perception, and feature preferences.
 
-```python
-from apify_client import ApifyClient
+### 4. Creative Inspiration & Social Video Downloader
+Download high-definition, watermark-free videos and gallery photos from trending posts across 13 lifestyle categories for creative analysis and moodboards.
 
-# Initialize the client with your Apify API token
-client = ApifyClient("YOUR_APIFY_TOKEN")
+---
 
-# Configure the search parameters
-run_input = {
-    "keywords": ["OOTD", "Cleanfit"],
-    "maxItems": 50,
-    "sort": "popularity_descending",
-    "noteType": "all",
-    "enrichDetails": True,
+## 📥 Input Settings & Parameters
+
+| Setting | Type | Default | Description |
+| :--- | :--- | :--- | :--- |
+| `startUrls` | Array | `[]` | Paste Xiaohongshu search URLs (e.g. `https://www.xiaohongshu.com/search_result?keyword=OOTD`), category links, or direct post URLs. |
+| `keywords` | Array | `["OOTD"]` | Target keywords or hashtags in Chinese, English, or Pinyin (e.g. `["OOTD", "穿搭", "skincare", "咖啡"]`). |
+| `trendingChannel` | String | `"none"` | Select an official real-time category channel dropdown (e.g. `Trending / Explore`, `Fashion`, `Beauty`, `Food`, `Pets`). |
+| `noteUrls` | Array | `[]` | Direct post URLs (including `?xsec_token=...`) or `xhslink.com` mobile share links. |
+| `resumptionToken` | String | `""` | Enterprise Base64 resumption token copied from a previous run's `OUTPUT` to resume pagination with exact session continuity and zero duplicates. |
+| `maxItems` | Number | `30` | Maximum number of notes to scrape across all targets (1 to 10,000). |
+| `sort` | String | `"popularity_descending"` | Ranking order: `popularity_descending` (viral/most popular), `time_descending` (newest first), or `general` (comprehensive). |
+| `noteType` | String | `"all"` | Upstream media format filter: `all`, `video_only`, or `image_only`. |
+| `enrichDetails` | Boolean | `true` | When enabled, fetches full post body, hashtags, HD images, video stream links, and purchase sentiment signals across 10 parallel workers. |
+| `proxyConfiguration` | Object | `Residential Proxy` | Apify Residential Proxy is recommended for stable, uninterrupted connection. |
+
+### 📂 Available Category Channels (13 Official Feeds)
+- **Trending / Explore:** `homefeed_recommend` (全站推荐 / 热门精选)
+- **Fashion & Outfits:** `homefeed.fashion_v3` (穿搭 / 流行风尚)
+- **Beauty & Cosmetics:** `homefeed.cosmetics_v3` (彩妆 / 护肤美妆)
+- **Food & Gourmet:** `homefeed.food_v3` (美食 / 探店打卡)
+- **Pets & Animals:** `homefeed.pet` (萌宠 / 治愈动物)
+- **Travel & Outdoors:** `homefeed.travel_v3` (旅行 / 露营出行)
+- **Home & Lifestyle:** `homefeed.household_product_v3` (家居 / 家装好物)
+- **Gaming & Anime:** `homefeed.gaming_v3` (游戏 / 二次元)
+- **Fitness & Wellness:** `homefeed.fitness_v3` (健身 / 运动减脂)
+- **Entertainment & Drama:** `homefeed.movie_and_tv_v3` (影视 / 娱乐追剧)
+- **Career & Workplace:** `homefeed.career_v3` (职场 / 技能成长)
+- **Relationships & Emotion:** `homefeed.love_v3` (情感 / 心理生活)
+- **Trending Videos Feed:** `homefeed.video_v3` (视频精选)
+
+---
+
+## 💻 Input Samples
+
+### Sample 1: Search URL or Keywords (Trending Products & Viral Content)
+```json
+{
+  "startUrls": [
+    { "url": "https://www.xiaohongshu.com/search_result?keyword=vintage&sort=popularity_descending" }
+  ],
+  "keywords": ["OOTD", "Cleanfit"],
+  "maxItems": 50,
+  "sort": "popularity_descending",
+  "noteType": "all",
+  "enrichDetails": true
 }
+```
 
-# Start the Actor and wait for it to finish
-print("🚀 Starting Xiaohongshu scrape...")
-run = client.actor("unitbytes/xiaohongshu-rednote-trend-scraper\").call(run_input=run_input)
+### Sample 2: Category Trending Discovery (Market Research Without Keywords)
+```json
+{
+  "trendingChannel": "homefeed.fashion_v3",
+  "maxItems": 50,
+  "enrichDetails": true
+}
+```
 
-# Fetch results from the default dataset
-dataset_items = client.dataset(run["defaultDatasetId"]).list_items().items
-print(f"✅ Successfully scraped {len(dataset_items)} notes!")
+### Sample 3: Video-Only Viral Content Extractor
+```json
+{
+  "keywords": ["美食教程"],
+  "noteType": "video_only",
+  "sort": "popularity_descending",
+  "maxItems": 100,
+  "enrichDetails": false
+}
+```
 
-for note in dataset_items[:3]:
-    print(f"\nTitle: {note.get('title')}")
-    print(f"Author: {note.get('author', {}).get('nickname')}")
-    print(f"Likes: {note.get('likedCount')}")
-    print(f"Purchase Intent: {note.get('sentiment', {}).get('hasPurchaseIntent')}")
-    print(f"URL: {note.get('url')}")
+### Sample 4: Specific Post URLs & Deep Content Extraction
+Scrape specific Xiaohongshu posts by URL or mobile share link (`xhslink.com`) to extract full text, author profiles, watermark-free direct MP4 video URLs, and hotlink-free HD galleries:
+```json
+{
+  "noteUrls": [
+    "https://www.xiaohongshu.com/explore/64be807d000000000800dabc?xsec_token=AB4829fa...",
+    "http://xhslink.com/a/abc123XYZ"
+  ],
+  "maxItems": 10,
+  "enrichDetails": true
+}
+```
+
+### Sample 5: Enterprise Resumption & Continuous Scraping
+Resume an interrupted run or continue deep pagination without duplicate notes *(copy your `resumptionToken` from the `OUTPUT` tab in your previous run's Key-Value Store)*:
+```json
+{
+  "resumptionToken": "REPLACE_WITH_YOUR_RESUMPTION_TOKEN",
+  "maxItems": 100
+}
 ```
 
 ---
 
-### 🟨 JavaScript / Node.js Example
+## 📤 Output Sample
 
-```bash
-npm install apify-client
-```
-
-```javascript
-import { ApifyClient } from 'apify-client';
-
-const client = new ApifyClient({
-    token: 'YOUR_APIFY_TOKEN',
-});
-
-const runInput = {
-    keywords: ['OOTD', '秋季穿搭'],
-    maxItems: 50,
-    sort: 'popularity_descending',
-    noteType: 'all',
-    enrichDetails: true,
-};
-
-console.log('🚀 Launching Xiaohongshu Scraper...');
-const run = await client.actor("unitbytes/xiaohongshu-rednote-trend-scraper\").call(runInput);
-
-const { items } = await client.dataset(run.defaultDatasetId).listItems();
-console.log(`✅ Fetched ${items.length} Xiaohongshu notes!`);
-
-console.log(items.slice(0, 2));
-```
-
----
-
-### 🌐 cURL Example
-
-```bash
-curl -X POST "https://api.apify.com/v2/acts/unitbytes~xiaohongshu-rednote-trend-scraper/runs?token=YOUR_APIFY_TOKEN" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "keywords": ["OOTD"],
-    "maxItems": 30,
-    "sort": "popularity_descending",
-    "noteType": "all"
-  }'
-```
-
----
-
-## 📤 Sample Output Data
-
-Every dataset record contains 25+ enriched fields, engagement heuristics, and sentiment signals:
+Each item in your dataset is delivered with enriched structured data:
 
 ```json
 {
   "id": "6a7568cc00000000050328d9",
   "title": "Autumn Capsule Wardrobe: 5 Minimalist Outfits for Office & Daily Wear",
-  "desc": "Sharing my favorite autumn minimalist styling guide! Coat from vintage thrift store, trousers matched with loafers. Where to buy link below! #AutumnOOTD #CapsuleWardrobe #MinimalistStyle #OfficeFashion",
+  "desc": "Sharing my favorite autumn minimalist styling guide! Coat from vintage thrift store, trousers matched with loafers. #AutumnOOTD #CapsuleWardrobe #MinimalistStyle #OfficeFashion",
   "type": "video",
   "url": "https://www.xiaohongshu.com/explore/6a7568cc00000000050328d9?xsec_token=AB4829fa...&xsec_source=pc_feed",
   "author": {
@@ -197,88 +222,157 @@ Every dataset record contains 25+ enriched fields, engagement heuristics, and se
   "imageCount": 2,
   "hasVideo": true,
   "isLivePhoto": false,
-  "coverUrl": "https://sns-webpic-qc.xhscdn.com/265/user/1040/01f016a7568cc.jpg",
+  "coverUrl": "https://sns-img-qc.xhscdn.com/1040g008323luhj1vnk5g5qi11c5jv001abram18",
+  "coverDimensions": {
+    "width": 1080,
+    "height": 1440
+  },
   "images": [
-    "https://sns-webpic-qc.xhscdn.com/265/user/1040/01f016a7568cc.jpg",
-    "https://sns-webpic-qc.xhscdn.com/265/user/1040/02f016a7568dd.jpg"
+    "https://sns-img-qc.xhscdn.com/1040g008323luhj1vnk5g5qi11c5jv001abram18",
+    "https://sns-img-qc.xhscdn.com/1040g2sg323jg6lprgmig5n7igt3h9u3s8t45lfo"
   ],
-  "videoUrl": "https://sns-video-qc.xhscdn.com/stream/110/258/01e403d154784a0d9b1a23.mp4",
+  "videoUrl": "https://sns-video-qc.xhscdn.com/stream/110/259/01e479a83bc.mp4",
   "videoDuration": 48,
-  "hashtags": ["AutumnOOTD", "CapsuleWardrobe", "MinimalistStyle", "OfficeFashion"],
-  "tags": ["OOTD", "Fashion", "Minimalist"],
+  "ipLocation": "上海",
+  "tags": [
+    "AutumnOOTD",
+    "CapsuleWardrobe",
+    "MinimalistStyle",
+    "OfficeFashion"
+  ],
+  "tagCount": 4,
+  "tagList": [
+    {
+      "id": "5befe9e0ffd6080001cbb9cb",
+      "name": "AutumnOOTD",
+      "type": "topic"
+    },
+    {
+      "id": "53b4d29ab4c4d61b0ba2ee94",
+      "name": "CapsuleWardrobe",
+      "type": "topic"
+    }
+  ],
+  "mentions": [],
+  "mentionCount": 0,
+  "atUsers": [],
+  "publishedAt": "2026-09-15T08:24:10+00:00",
+  "updatedAt": "2026-09-15T09:12:05+00:00",
   "sentiment": {
     "hasPurchaseIntent": true,
-    "hasInquiry": false,
+    "hasInquiry": true,
     "hasPraise": true,
-    "emojis": ["🧥", "✨", "🍂"],
-    "intentKeywords": ["求链接", "哪里买"]
+    "intentKeywords": [
+      "哪里买",
+      "求链接",
+      "多少钱"
+    ],
+    "emojis": ["✨", "🍂", "🧥"]
   },
-  "pagination": {
-    "currentPage": 1,
-    "nextPage": 2,
-    "itemPosition": 1,
-    "target": "OOTD",
-    "targetType": "keyword",
-    "searchId": "2GWYZH99W1ZX7ZHB78AKZ",
-    "resumptionToken": "eyJwYWdlIjoyLCJ0YXJnZXQiOiJPT1REIiwidHlwZSI6ImtleXdvcmQiLCJzZWFyY2hJZCI6IjJHV1laSDk5VzFaWDdaSEI3OEFLWiIsImN1cnNvciI6IiIsInRzIjoxNzg5ODEwOTE3LCJsYXN0SWRzIjpbIjZhNzU2OGNjMDAwMDAwMDAwNTAzMjhkOSJdfQ",
-    "hasMore": true
-  },
-  "scrapedAt": "2026-09-19T13:40:00.000Z"
+  "scrapedAt": "2026-09-18T01:43:26.549000+00:00"
 }
 ```
 
 ---
 
-## 🔄 How Deep Resumption Works
+## 💰 Transparent Pay-Per-Result Pricing
 
-At the conclusion of each scrape, the Actor saves an operational summary to the default Key-Value Store under the key `OUTPUT`.
+This Actor operates under Apify's **Pay-Per-Event (PPE)** model. You only pay for actual delivered data with no recurring monthly subscriptions:
 
-To continue pagination without scraping duplicates, copy the `resumptionToken` from the `OUTPUT` tab into your next run's input:
+| Event | Price | What You Get |
+| :--- | :---: | :--- |
+| **Actor Run Startup (`apify-actor-start`)** | **$0.05** | Per execution. Covers browser session initialization and anti-bot verification. |
+| **Scraped Note (`note`)** | **$0.002 / post** | Charged only for valid, complete note items delivered to your dataset. |
+
+---
+
+## ⚡ Ready-to-Run Use Case Tasks
+
+Save time with our pre-configured, 1-click tasks optimized for specific scraping goals:
+
+| Use Case Objective | 1-Click Task Preset | Key Focus | Direct Run |
+| :--- | :--- | :--- | :---: |
+| 👗 **Fashion & OOTD Trends** | [`xiaohongshu-fashion-ootd-trends`](https://console.apify.com/actors/tasks/dhqak8m485hih5KIR/input) | Viral Korean aesthetics, capsule wardrobes, luxury streetwear | [⚡ **Open & Run**](https://console.apify.com/actors/tasks/dhqak8m485hih5KIR/input) |
+| 💄 **Beauty & Skincare Scraper** | [`xiaohongshu-beauty-skincare-scraper`](https://console.apify.com/actors/tasks/tjjk6L3o5bgfZ5b66/input) | Cosmetic product reviews, Asian skincare routines, and makeup tutorials | [⚡ **Open & Run**](https://console.apify.com/actors/tasks/tjjk6L3o5bgfZ5b66/input) |
+| 🎬 **Viral Video Extractor** | [`xiaohongshu-viral-video-downloader`](https://console.apify.com/actors/tasks/0F2TCAZw9bpoTdsxf/input) | Direct unwatermarked MP4 streams, video durations, and viral reels | [⚡ **Open & Run**](https://console.apify.com/actors/tasks/0F2TCAZw9bpoTdsxf/input) |
+| 🍜 **Food & Restaurant Guide** | [`xiaohongshu-food-restaurant-guide`](https://console.apify.com/actors/tasks/Tr5SjamLTQaXsqV9R/input) | Dining guides, cafe reviews, local foodie spots, and recipes | [⚡ **Open & Run**](https://console.apify.com/actors/tasks/Tr5SjamLTQaXsqV9R/input) |
+| ✈️ **Travel & Outdoor Guides** | [`xiaohongshu-travel-outdoor-guide`](https://console.apify.com/actors/tasks/3tnd4Bxd6slONSZZf/input) | Viral itineraries, hidden scenic gems, camping, and weekend guides | [⚡ **Open & Run**](https://console.apify.com/actors/tasks/3tnd4Bxd6slONSZZf/input) |
+| 🛋️ **Home Decor & Aesthetics** | [`xiaohongshu-home-decor-lifestyle`](https://console.apify.com/actors/tasks/mBeTE1mpuVuqGNKls/input) | Room makeovers, minimalist interior design, and cozy living setups | [⚡ **Open & Run**](https://console.apify.com/actors/tasks/mBeTE1mpuVuqGNKls/input) |
+| 🏃 **Fitness & Wellness Tracker** | [`xiaohongshu-fitness-wellness-tracker`](https://console.apify.com/actors/tasks/U7rGGzeTmOCER6Soe/input) | Workout routines, healthy meal plans, and fat loss transformations | [⚡ **Open & Run**](https://console.apify.com/actors/tasks/U7rGGzeTmOCER6Soe/input) |
+| 🎮 **Gaming & Anime Culture** | [`xiaohongshu-gaming-anime-trends`](https://console.apify.com/actors/tasks/h3ab7k1rx2purFJZO/input) | ACG culture, cosplay, gaming strategies, and mobile game updates | [⚡ **Open & Run**](https://console.apify.com/actors/tasks/h3ab7k1rx2purFJZO/input) |
+| 🛍️ **Buyer Sentiment & Reviews** | [`xiaohongshu-buyer-sentiment-analyzer`](https://console.apify.com/actors/tasks/ur8GeX1oo9MvmS79E/input) | Authentic consumer feedback, complaints, and purchase intent | [⚡ **Open & Run**](https://console.apify.com/actors/tasks/ur8GeX1oo9MvmS79E/input) |
+| 🌟 **Influencer (KOL/KOC) Tracker** | [`xiaohongshu-influencer-kol-tracker`](https://console.apify.com/actors/tasks/xfcAYwJSHGndGCjKj/input) | Creator discovery, RED ID handles, and viral engagement metrics | [⚡ **Open & Run**](https://console.apify.com/actors/tasks/xfcAYwJSHGndGCjKj/input) |
+
+---
+
+
+---
+
+### 🔌 MCP Server Setup: Claude Code, Cursor & AI Agents
+
+Connect this scraper directly to **Claude Code**, **Claude Desktop**, **Cursor**, or any MCP-compatible AI agent via the hosted Apify MCP server:
 
 ```json
 {
-  "resumptionToken": "REPLACE_WITH_YOUR_RESUMPTION_TOKEN",
-  "maxItems": 100
+  "mcpServers": {
+    "apify": {
+      "type": "http",
+      "url": "https://mcp.apify.com/?tools=actors,docs,unitbytes/xiaohongshu-rednote-trend-scraper"
+    }
+  }
 }
 ```
+*No manual API token required in configuration if your client supports Apify OAuth sign-in. Alternatively, pass your Apify API Token in the authorization header.*
 
-The Actor will automatically restore the target keyword/channel, jump to the next page, and use its embedded `lastIds` deduplication filter to guarantee **0 duplicate notes across runs**.
+---
+
+### 🤖 Ask an AI Assistant About This Scraper
+
+Open a ready-to-run prompt about Xiaohongshu (RedNote) Trend Scraper in your favorite AI assistant:
+
+- 💬 [ChatGPT](https://chatgpt.com/?q=Using%20the%20Xiaohongshu%20%28RedNote%29%20Scraper%20on%20Apify%20%28https%3A//apify.com/unitbytes/xiaohongshu-rednote-trend-scraper%29%2C%20walk%20me%20through%20tracking%20viral%20fashion%20trends%20and%20buyer%20sentiment%20signals%20without%20login%20cookies.%20Show%20me%20the%20input%20JSON%20and%20Python%20code.)
+- 🧠 [Claude](https://claude.ai/new?q=Using%20the%20Xiaohongshu%20%28RedNote%29%20Scraper%20on%20Apify%20%28https%3A//apify.com/unitbytes/xiaohongshu-rednote-trend-scraper%29%2C%20walk%20me%20through%20tracking%20viral%20fashion%20trends%20and%20buyer%20sentiment%20signals%20without%20login%20cookies.%20Show%20me%20the%20input%20JSON%20and%20Python%20code.)
+- 🔍 [Perplexity](https://www.perplexity.ai/search?q=Using%20the%20Xiaohongshu%20%28RedNote%29%20Scraper%20on%20Apify%20%28https%3A//apify.com/unitbytes/xiaohongshu-rednote-trend-scraper%29%2C%20walk%20me%20through%20tracking%20viral%20fashion%20trends%20and%20buyer%20sentiment%20signals%20without%20login%20cookies.%20Show%20me%20the%20input%20JSON%20and%20Python%20code.)
 
 ---
 
 ## ❓ Frequently Asked Questions (FAQ)
 
-### Do I need a Xiaohongshu account or cookies?
-**No.** The scraper operates entirely in Zero-Cookie Guest Mode using automated device emulation and recommendation stream harvesting. You do not need an account, phone number, or login cookies.
+### Do I need a Xiaohongshu account or personal login cookies?
+**No.** This Actor operates 100% autonomously without asking users for login cookies. You do not need to risk your personal account or deal with expiring session tokens.
 
-### Can I download watermark-free MP4 videos and HD photos?
-**Yes.** The scraper extracts direct CDN links to raw, uncompressed HD gallery photos and watermark-free MP4 video streams.
+### Can I download watermark-free MP4 videos?
+**Yes.** When `enrichDetails: true` is enabled, the actor extracts the signed, direct MP4 streaming link (`videoUrl`) without watermarks.
 
-### What proxies should I use?
-We strongly recommend using **Apify Residential Proxies** for maximum reliability and throughput.
+### Are the extracted images and photos hotlink-free and accessible?
+**Yes.** All photo gallery links, covers, and author avatars are hotlink-free HTTPS URLs. They can be opened directly in any browser, embedded into web applications, or viewed in spreadsheets and dashboards without access restrictions.
+
+### Can I scrape more than 30 notes per run?
+**Yes.** The scraper supports continuous multi-page pagination across pages 1, 2, 3, etc. Simply set `maxItems` to your desired count (e.g. 500, 1,000, 5,000, 10,000+).
+
+### Can I paste mobile share links from the Xiaohongshu app?
+**Yes.** You can paste short mobile share links (`http://xhslink.com/a/...`) directly into `noteUrls` or `startUrls`. The actor automatically resolves them to full post IDs.
+
+### Can I search with English keywords?
+**Yes.** You can search using English words (e.g. `OOTD`, `skincare`, `vintage`), Chinese characters, Pinyin, or hashtags.
 
 ---
 
-## 📞 Support & Custom Scrapers
+## 📊 Export Formats & Integrations
 
-Need a custom data solution, higher concurrency, or enterprise SLAs?
+Your scraped Xiaohongshu dataset can be downloaded or integrated with any modern data pipeline:
+- **Downloadable Formats:** CSV, Excel (XLSX), JSON, JSONL, XML, HTML Table.
+- **Automation & Integrations:** Connect to Google Sheets, Airtable, Zapier, Make.com, or Slack using Apify Webhooks.
+- **Developer API:** Programmatically query results via Python (`apify-client`), Node.js / JavaScript, or standard cURL REST API.
 
-- **Apify Actor Store:** [Xiaohongshu (RedNote) Scraper](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs)
-- **Bug Reports & Feature Requests:** [Apify Issues](https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper/issues)
-- **Author:** UnitBytes
+---
 
-<div align="center">
-  <br>
-  <a href="https://apify.com/unitbytes/xiaohongshu-rednote-trend-scraper?fpr=939u3w&fp_sid=gh_xhs">
-    <img src="https://img.shields.io/badge/Start_Scraping_Now-Apify-28B52A?style=for-the-badge&logo=apify&logoColor=white" height="40" alt="Start Scraping Now">
+<p align="center">
+  <b>Ready to extract viral Xiaohongshu trends & consumer sentiment?</b><br><br>
+  <a href="https://console.apify.com/actors/HJhq4xB1PKEK6PptD/input" target="_blank">
+    <img src="https://raw.githubusercontent.com/unitbytes-com/.github/main/assets/try-it-for-free.svg" alt="Try it for Free on Apify" width="240" />
   </a>
-</div>
-
----
-
-## 🔍 Keywords & Search Tags
-
-`xiaohongshu-scraper` • `xiaohongshu-api` • `rednote-scraper` • `rednote-api` • `little-red-book-scraper` • `小红书爬虫` • `小红书数据采集` • `xiaohongshu-python` • `xhs-scraper` • `scrape-xiaohongshu-without-login` • `xiaohongshu-video-downloader-no-watermark` • `xiaohongshu-buyer-sentiment` • `ecommerce-product-discovery` • `chinese-social-media-data` • `apify-actor` • `kol-influencer-analytics` • `rednote-crawler` • `xiaohongshu-trending-topics`
+</p>
 
 ---
 
